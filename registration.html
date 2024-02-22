@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITS Mail Registration</title>
+    <style>
+        a{
+            color: dodgerblue;
+        }
+
+        div{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <form>
+
+        <fieldset style="background-color: antiquewhite;">
+            <legend style="color: blueviolet;"><h2>Create a College Email ID</h2></legend>
+            
+            <div>
+            
+            <h3>Please fill this form to create an account.</h3>
+            <br>
+
+            
+            <label for="reg-fname"><b>First Name</b></label>
+            <input type="text" name="reg-fname" id="reg-fname" placeholder="eg. Sajid">
+            <br>
+            <br>
+
+            <label for="reg-mname"><b>Middle Name</b></label>
+            <input type="text" name="reg-mname" id="reg-mname" placeholder="eg. Ahmad">
+            <br>
+            <br>
+
+            <label for="reg-lname"><b>Last Name</b></label>
+            <input type="text" name="reg-lname" id="reg-lname" placeholder="eg. Raza">
+            <br><br>
+
+            <label for="dob"><b>Date Of Birth</b></label>
+            <input type="text" name="dob" id="dob" placeholder="dd/mm/yyyy">
+            <br><br>
+            
+            <label for="female"><b>Female</b></label>
+            <input type="radio" name="gender" id="female">
+            <br>
+            <label for="male"><b>Male</b></label>
+            <input type="radio" name="gender" id="male">
+            <br>
+            <label for="other"><b>Others</b></label>
+            <input type="radio" name="gender" id="other">
+            <br>
+            <br>
+
+            <label for="course"><b>Course</b>:</label>
+            <select name="course" id="course">
+                <option value="course1">B.Tech</option>
+            </select>
+            <br><br>
+
+            <label for="branch"><b>Branch</b>:</label>
+            <select name="branch" id="branch">
+                <option value="branch1">CSE</option>
+                <option value="branch2">ECE</option>
+                <option value="branch3">AI & ML</option>
+                <option value="branch4">CS-IT</option>
+                <option value="branch5">CE</option>
+                <option value="branch6">ME</option>
+            </select>
+            <br><br>
+
+            <label for="year"><b>Year</b>:</label>
+            <select name="year" id="year">
+                <option value="year23-27">2017-21</option>
+                <option value="year24-28">2018-22</option>
+                <option value="year19-23">2019-23</option>
+                <option value="year20-24">2020-24</option>
+                <option value="year21-25">2021-25</option>
+                <option value="year22-26">2022-26</option>
+                <option value="year23-27">2023-27</option>
+                <option value="year24-28">2024-28</option>
+                <option value="year23-27">2025-29</option>
+                <option value="year24-28">2026-30</option>
+            </select>
+            <br><br>
+            
+            <label for="reg-email"><b>Email</b></label>
+            <input type="email" name="reg-email" id="reg-email" placeholder="example_cse22@its.edu.in">
+            <br>
+            <br>
+
+            
+            <label for="reg-pass"><b>Password</b></label>
+            <input type="password" name="reg-pass" id="reg-pass" placeholder="Password">
+            <br>
+            <br>
+
+            <label for="reg-re-pass"><b>Repeat Password</b></label>
+            <input type="password" name="re-pass" id="reg-re-pass" placeholder="Repeat Password">
+            <br>
+            <br>
+
+            <button id="reg-btn"><b>Register</b></button>
+            <br>
+            <br>
+
+            <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+
+            </div>
+    
+
+        </fieldset>
+
+    </form>
+<script></script>
+</body>
+</html>
